@@ -90,3 +90,7 @@ Answers for Lab 2 (1/22/2025)
 
     The git pull gets the most recent version of the repository from the remote repository.
     ```
+
+13. ```
+    .  ..  .git  .gitignore  README.md
+    ```

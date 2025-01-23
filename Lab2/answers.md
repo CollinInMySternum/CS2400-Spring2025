@@ -1,7 +1,7 @@
-Answers
+Answers for Lab 2 (1/22/2025)
 
-1.) 2.46.2
-2.)
+1. ```2.46.2```
+2. ```
     filter.lfs.clean=git-lfs clean -- %f
     filter.lfs.smudge=git-lfs smudge -- %f
     filter.lfs.process=git-lfs filter-process
@@ -18,9 +18,10 @@ Answers
     branch.main.remote=origin
     branch.main.merge=refs/heads/main
     [collinblumenauer@archlinux CS2400-Spring2025]$
+    ```
 
-3.) Lists all possible commands for git
-4.)
+3.  ```Lists all possible commands for git ```
+4. ```
     On branch main
     Your branch is up to date with 'origin/main'
 
@@ -29,8 +30,9 @@ Answers
 
     Untracked files:
     answers.md, README.md
+    ```
 
-5.)
+5. ```
     On branch main
     Your branch is up to date with 'origin/main'
 
@@ -39,8 +41,9 @@ Answers
 
     Untracked files:
     answers.md
+    ```
 
-6.)
+6. ```
     On branch main
     Your branch is up to date with 'origin/main'
 
@@ -49,15 +52,17 @@ Answers
 
     Untracked files:
     ...
+    ```
 
-7.)
+7. ```
     On branch main
     Your branch is up to date with 'origin/main'.
 
     Untracked files:
     ...
+    ```
 
-8.)
+8. ```
     (HEAD -> main, origin/main, origin/HEAD)
     Author: CollinInMySternum <projectunkowngame@gmail.com>
     Date:   Wed Jan 22 18:49:46 2025 -0500
@@ -65,5 +70,23 @@ Answers
         Initial Commit #3
 
     ...
+    ```
 
-9.)
+9. ```
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    nothing to commit, working tree clean
+
+    ```
+
+10. ```
+    No, the local repo will not reflect the most recent version. You would need to pull origin.
+    ```
+11. ```
+    The push command pushes files from the local repository to the remote repo, making it available on web.
+12. ```
+    Yes, the changes made online are reflected in the local copy, because of git pull.
+
+    The git pull gets the most recent version of the repository from the remote repository.
+    ```
